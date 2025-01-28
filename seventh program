@@ -1,0 +1,22 @@
+//Write a program for computing volume of cylinder, sphere and cone assume that     
+//dimensions are integer’s use typecasting where ever necessary.
+#include <stdio.h>
+
+int main()
+{
+    int r,h,volume_of_cylinder,volume_of_sphere,volume_of_cone ;
+    
+    printf("enter the value of r and h\n:");
+    scanf("%d%d",&r,&h);
+    
+    volume_of_cylinder=3.14*r*r*h ;
+    printf("volume of cylinder =%d\n",volume_of_cylinder);
+    
+    volume_of_sphere=(4/3)*3.14*r*r*r ;
+    printf("volume of the sphere =%d\n",volume_of_sphere);
+    
+    volume_of_cone=(1/3)*3.14*r*r*h ;
+    printf("volume of the cone =%d\n",volume_of_cone);
+    
+    return 0;
+}
